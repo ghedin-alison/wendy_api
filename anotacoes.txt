@@ -34,6 +34,10 @@ abrir o dbeaver e ver todas as tabelas criadas
 
 Agora vamos trabalhar pra disponibilizar a API
 
+criar o serializers.py de products
+alterar o models.py de products
+criar o urls.py de products
+
 
 
 

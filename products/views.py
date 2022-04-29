@@ -12,8 +12,10 @@ class ProductViewSet(viewsets.ViewSet):
     def retrieve(self, request, pk=None): # /api/products/<str:id>
         pass
 
+
     def update(self, request, pk=None): # /api/products/<str:id>
         pass
 
-    def kill(self, request, pk=None): # /api/products/<str:id>
+
+    def destroy(self, request, pk=None): # /api/products/<str:id>
         pass

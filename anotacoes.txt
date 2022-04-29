@@ -1,0 +1,22 @@
+criar o projeto normalmente com venv e colocar o django pra rodar
+quando estiver rodando na localhost, parar o servidor e retirar a venv do interpretador
+abrir pelo explorer o diretorio e apagar a venv
+executar docker-compose up
+tem q abrir o localhost com o django novamente
+adicionar as configuracoes de banco de dados no dockerfile e reiniciar o dcoker-compose up
+abrir o dbeaver e configurar o banco de dados de acordo com o docker-compose
+iniciar a criacao do banco de dados
+mas antes abrir um novo terminal pra acessar o container via comandos shell
+docker-compose exec backend sh
+dentro do container executar:
+ls
+python manage.py startapp products
+aqui estamos criando o app products dentro do container, pq está fazendo isso?
+pra mostrar que tudo que é construido dentro do container, é refletido fora dele.
+Criou a mesma estrutura de diretorios e modulos que o admin criado no inicio do projeto, ainda com a venv....
+
+Agora mexe com os settings do admin pra adicionar as consfigurações de product
+
+
+
+

@@ -15,7 +15,12 @@ aqui estamos criando o app products dentro do container, pq está fazendo isso?
 pra mostrar que tudo que é construido dentro do container, é refletido fora dele.
 Criou a mesma estrutura de diretorios e modulos que o admin criado no inicio do projeto, ainda com a venv....
 
-Agora mexe com os settings do admin pra adicionar as consfigurações de product
+Agora mexe com os settings do admin pra adicionar as consfigurações de product e banco de dados
+
+reinicia o docker container
+
+agora tem uma mensagem dizendo que tem q executar migrations, mas antes precisamos criar aas tabelas
+
 
 
 

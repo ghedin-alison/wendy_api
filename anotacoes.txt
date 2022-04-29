@@ -19,7 +19,20 @@ Agora mexe com os settings do admin pra adicionar as consfigurações de product
 
 reinicia o docker container
 
-agora tem uma mensagem dizendo que tem q executar migrations, mas antes precisamos criar aas tabelas
+agora tem uma mensagem dizendo que tem q executar migrations, mas antes precisamos criar as tabelas
+
+reiniciar o docker container, se houver algum erro na criacao, vai apontar erros na models
+reiniciar a execucao do container via shell noutro terminal
+docker-compose exec backend sh
+
+executar python manage.py makemigrations, isso cria o diretorio migrations, controle de versao da tabela
+executar python manage.py migrate
+
+abrir o dbeaver e ver todas as tabelas criadas
+
+*************************************************************************************************
+
+Agora vamos trabalhar pra disponibilizar a API
 
 
 

@@ -52,6 +52,10 @@ alterar na view a funcao create
 retornar ao postman e executar com post
 alterar pra mexer com o body e mandar um registro simples com o post
 
+Admin database só funciona a partir do momento que estiver populado na base de dados.
+pode ser uma alternativa criar admin...
+
+
 parei aos 36:29 do video
 
 

@@ -38,6 +38,22 @@ criar o serializers.py de products
 alterar o models.py de products
 criar o urls.py de products
 
+atualizar a views, fazendo a conexao de modelo e serializer
+
+alterar o urls do admin
+
+
+consultar no postman:
+localhost:8000/api/products
+a lista deve estar vazia nesse ponto
+
+
+alterar na view a funcao create
+retornar ao postman e executar com post
+alterar pra mexer com o body e mandar um registro simples com o post
+
+parei aos 36:29 do video
+
 
 
 
